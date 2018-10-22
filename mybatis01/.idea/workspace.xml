@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7819c20-2a3b-4de9-baef-9c7c4bb7014a" name="Default Changelist" comment="" />
+    <list default="true" id="d7819c20-2a3b-4de9-baef-9c7c4bb7014a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mybatis/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mybatis/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mybatis/dao/TestUserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mybatis/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,61 +40,65 @@
     <session id="2144650158">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1065" />
-          <entry key="properties" value="219" />
-          <entry key="xml" value="1673" />
+          <entry key="dummy" value="6" />
+          <entry key="java" value="2219" />
+          <entry key="properties" value="274" />
+          <entry key="xml" value="1763" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1065" />
-          <entry key="Properties" value="219" />
+          <entry key="JAVA" value="2219" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Properties" value="274" />
           <entry key="SQL" value="6" />
-          <entry key="XML" value="1667" />
+          <entry key="XML" value="1757" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="31" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="5" />
+          <entry key="java" value="37" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="31" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="5" />
+          <entry key="JAVA" value="37" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
+            <state relative-caret-position="196">
+              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/first/MybatisFirst.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/mybatis/dao/TestUserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="89" column="22" lean-forward="true" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+            <state relative-caret-position="266">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,10 +107,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/mybatis/mapper/UserMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/po/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="380">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="e#217#218#0" expanded="true" />
                 <element signature="e#242#243#0" expanded="true" />
@@ -121,24 +179,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sqlmap/User.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="xml File" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -148,9 +202,17 @@
         <option value="$PROJECT_DIR$/src/config/sqlmap/User.xml" />
         <option value="$PROJECT_DIR$/src/config/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mybatis/po/User.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/sqlmap/User.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mybatis/first/MybatisFirst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mybatis/dao/TestUserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/mapper/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/mybatis/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/mybatis/mapper/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
       </list>
     </option>
   </component>
@@ -171,17 +233,20 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="156" />
-    <option name="y" value="118" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="311" />
+    <option name="y" value="47" />
     <option name="width" value="1656" />
     <option name="height" value="928" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,7 +287,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="first" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis01" type="b2602c69:ProjectViewProjectNode" />
@@ -246,6 +329,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sqlmap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -256,27 +347,72 @@
             </path>
             <path>
               <item name="mybatis01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis01" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539939984346" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540201319311" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="mybatis.mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\mybatisprojects\mybatis01\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mybatis.mapper" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="I:\mybatisprojects\mybatis01\src\main\resources" />
     </key>
@@ -293,99 +429,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisFirst.updateUserTest">
-    <configuration name="MybatisFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserMapperTest.testfindUserById">
+    <configuration name="TestUserDaoImpl.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mybatis.first.*" />
+          <option name="PATTERN" value="mybatis.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mybatis.first" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.first.MybatisFirst" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisFirst.deleteUserByIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mybatis.first.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mybatis.first" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.first.MybatisFirst" />
-      <option name="METHOD_NAME" value="deleteUserByIDTest" />
+      <option name="PACKAGE_NAME" value="mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.dao.TestUserDaoImpl" />
+      <option name="METHOD_NAME" value="testDeleteUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisFirst.findUserByNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUserDaoImpl.testInsertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mybatis.first.*" />
+          <option name="PATTERN" value="mybatis.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mybatis.first" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.first.MybatisFirst" />
-      <option name="METHOD_NAME" value="findUserByNameTest" />
+      <option name="PACKAGE_NAME" value="mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.dao.TestUserDaoImpl" />
+      <option name="METHOD_NAME" value="testInsertUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisFirst.insertUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserMapperTest.findUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mybatis.first.*" />
+          <option name="PATTERN" value="mybatis.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mybatis.first" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.first.MybatisFirst" />
-      <option name="METHOD_NAME" value="insertUserTest" />
+      <option name="PACKAGE_NAME" value="mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="findUserById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisFirst.updateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserMapperTest.findUserByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mybatis.first.*" />
+          <option name="PATTERN" value="mybatis.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mybatis.first" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.first.MybatisFirst" />
-      <option name="METHOD_NAME" value="updateUserTest" />
+      <option name="PACKAGE_NAME" value="mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="findUserByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testfindUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="testfindUserById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MybatisFirst" />
-      <item itemvalue="JUnit.MybatisFirst.findUserByNameTest" />
-      <item itemvalue="JUnit.MybatisFirst.insertUserTest" />
-      <item itemvalue="JUnit.MybatisFirst.deleteUserByIDTest" />
-      <item itemvalue="JUnit.MybatisFirst.updateUserTest" />
+      <item itemvalue="JUnit.TestUserDaoImpl.testInsertUser" />
+      <item itemvalue="JUnit.TestUserDaoImpl.testDeleteUser" />
+      <item itemvalue="JUnit.UserMapperTest.findUserById" />
+      <item itemvalue="JUnit.UserMapperTest.findUserByName" />
+      <item itemvalue="JUnit.UserMapperTest.testfindUserById" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisFirst.updateUserTest" />
-        <item itemvalue="JUnit.MybatisFirst.deleteUserByIDTest" />
-        <item itemvalue="JUnit.MybatisFirst.insertUserTest" />
-        <item itemvalue="JUnit.MybatisFirst.findUserByNameTest" />
-        <item itemvalue="JUnit.MybatisFirst" />
+        <item itemvalue="JUnit.UserMapperTest.testfindUserById" />
+        <item itemvalue="JUnit.UserMapperTest.findUserByName" />
+        <item itemvalue="JUnit.UserMapperTest.findUserById" />
+        <item itemvalue="JUnit.TestUserDaoImpl.testDeleteUser" />
+        <item itemvalue="JUnit.TestUserDaoImpl.testInsertUser" />
       </list>
     </recent_temporary>
   </component>
@@ -401,50 +539,52 @@
       <updated>1539764884547</updated>
       <workItem from="1539764886141" duration="5430000" />
       <workItem from="1539828658336" duration="14803000" />
-      <workItem from="1539912748963" duration="15277000" />
+      <workItem from="1539912748963" duration="15464000" />
+      <workItem from="1539940747151" duration="2340000" />
+      <workItem from="1540172447112" duration="14450000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MybatisFirst_findUserByNameTest - 2018.10.19 at 15h 06m 15s.xml">
-      <configuration name="MybatisFirst.findUserByNameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybatisFirst_findUserByNameTest - 2018.10.19 at 15h 14m 25s.xml">
-      <configuration name="MybatisFirst.findUserByNameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybatisFirst_findUserByNameTest - 2018.10.19 at 15h 22m 41s.xml">
-      <configuration name="MybatisFirst.findUserByNameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybatisFirst_insertUserTest - 2018.10.19 at 15h 51m 12s.xml">
-      <configuration name="MybatisFirst.insertUserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybatisFirst_insertUserTest - 2018.10.19 at 15h 52m 30s.xml">
-      <configuration name="MybatisFirst.insertUserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybatisFirst_insertUserTest - 2018.10.19 at 16h 09m 50s.xml">
-      <configuration name="MybatisFirst.insertUserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybatisFirst_deleteUserByIDTest - 2018.10.19 at 16h 44m 20s.xml">
-      <configuration name="MybatisFirst.deleteUserByIDTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybatisFirst_insertUserTest - 2018.10.19 at 16h 44m 27s.xml">
-      <configuration name="MybatisFirst.insertUserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MybatisFirst_deleteUserByIDTest - 2018.10.19 at 16h 44m 59s.xml">
-      <configuration name="MybatisFirst.deleteUserByIDTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MybatisFirst_updateUserTest - 2018.10.19 at 16h 49m 32s.xml">
       <configuration name="MybatisFirst.updateUserTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestUserDaoImpl_testFindUserById - 2018.10.22 at 14h 12m 52s.xml">
+      <configuration name="TestUserDaoImpl.testFindUserById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserDaoImpl_testInsertUser - 2018.10.22 at 14h 19m 59s.xml">
+      <configuration name="TestUserDaoImpl.testInsertUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserDaoImpl_testDeleteUser - 2018.10.22 at 14h 25m 18s.xml">
+      <configuration name="TestUserDaoImpl.testDeleteUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_findUserById - 2018.10.22 at 15h 32m 43s.xml">
+      <configuration name="UserMapperTest.findUserById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_findUserById - 2018.10.22 at 15h 40m 57s.xml">
+      <configuration name="UserMapperTest.findUserById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_findUserByName - 2018.10.22 at 16h 08m 44s.xml">
+      <configuration name="UserMapperTest.findUserByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testfindUserById - 2018.10.22 at 16h 46m 13s.xml">
+      <configuration name="UserMapperTest.testfindUserById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testfindUserById - 2018.10.22 at 16h 47m 03s.xml">
+      <configuration name="UserMapperTest.testfindUserById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testfindUserById - 2018.10.22 at 16h 47m 54s.xml">
+      <configuration name="UserMapperTest.testfindUserById" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35510000" />
+    <option name="totallyTimeSpent" value="52487000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="156" y="118" width="1656" height="928" extended-state="1" />
+    <frame x="641" y="127" width="1656" height="928" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20238096" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20739348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -453,7 +593,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32914573" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32830188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36180905" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,8 +601,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32788944" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32704404" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -559,9 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#992#993#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -569,9 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#1161#1162#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -593,11 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="610" selection-start-line="610" selection-end-line="610" />
-          <folding>
-            <element signature="e#24363#24364#0" expanded="true" />
-            <element signature="e#66429#66430#0" expanded="true" />
-            <element signature="e#66486#66487#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,15 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#1901#1918#0" expanded="true" />
-            <element signature="e#1983#2000#0" expanded="true" />
-            <element signature="e#2064#2082#0" expanded="true" />
-            <element signature="e#2146#2164#0" expanded="true" />
-            <element signature="e#2284#2300#0" expanded="true" />
-            <element signature="e#3641#3663#0" expanded="true" />
-            <element signature="e#11817#11833#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,10 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#2920#2921#0" expanded="true" />
-            <element signature="e#2950#2951#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -674,10 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="711">
           <caret line="540" selection-start-line="540" selection-end-line="540" />
-          <folding>
-            <element signature="e#24074#24075#0" expanded="true" />
-            <element signature="e#24124#24125#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,10 +807,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/first/MybatisFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlmap/User.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/po/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="380">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="e#217#218#0" expanded="true" />
             <element signature="e#242#243#0" expanded="true" />
@@ -724,27 +880,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/mybatis/dao/TestUserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/first/MybatisFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="89" column="22" lean-forward="true" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+        <state relative-caret-position="266">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlmap/User.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+        <state relative-caret-position="196">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mybatis/mapper/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
         </state>
       </provider>
     </entry>
